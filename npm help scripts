@@ -1,0 +1,23 @@
+NPM-STOP(1)                                                        NPM-STOP(1)
+
+NNAAMMEE
+       nnppmm--ssttoopp - Stop a package
+
+   SSyynnooppssiiss
+         npm stop [-- <args>]
+
+   DDeessccrriippttiioonn
+       This runs a package's "stop" script, if one was provided.
+
+   SSeeee AAllssoo
+       • npm help run-script
+
+       • npm help scripts
+
+       • npm help test
+
+       • npm help start
+
+       • npm help restart
+
+                                  August 2020                      NPM-STOP(1)
