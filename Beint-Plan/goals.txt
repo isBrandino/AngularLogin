@@ -1,7 +1,0 @@
-angular , mongo, python
-
-Deployment? >> with AZURE
-
-need a login systems
-need a hash table of song values
-

@@ -12,7 +12,6 @@ import { ErrorInterceptor } from '../app/_helpers/error.interceptor';
 import { AppComponent } from './app.component';
 import { AlertComponent } from '../app/_components/alert/alert.component';
 import { HomeComponent } from '../app/_components/home/home.component';
-import { LibraryComponent } from '../app/_components/library/library.component';
 @NgModule({
     imports: [
         BrowserModule,
@@ -24,7 +23,6 @@ import { LibraryComponent } from '../app/_components/library/library.component';
         AppComponent,
         AlertComponent,
         HomeComponent,
-        LibraryComponent
     ],
     providers: [
         { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
